@@ -1,0 +1,13 @@
+[package]
+name = "rust_examples_bin"
+version = "0.1.0"
+authors = ["HaruGakka <ffdd270@gmail.com>"]
+edition = "2018"
+workspace = ".."
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "rust_examples_bin"
+path = "main.rs"
